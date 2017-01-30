@@ -45,6 +45,7 @@ class HomePageTest(TestCase):
         home_page(request)
         self.assertEqual(Item.objects.count(), 0)
 
+
 class ItemModelTest(TestCase):
 
     def test_saving_and_retrieving_items(self):
