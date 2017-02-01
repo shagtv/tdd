@@ -46,9 +46,6 @@ class NewVisitorTest(LiveServerTestCase):
         # "1: Buy peacock feathers" as an item in a to-do list table
         inputbox.send_keys(Keys.ENTER)
 
-        import time
-        time.sleep(4)
-
         # When she hits enter, the page updates, and now the page lists
         # "1: Buy peacock feathers" as an item in a to-do list table
         edith_list_url = self.browser.current_url
@@ -95,10 +92,5 @@ class NewVisitorTest(LiveServerTestCase):
         # There is still a text box inviting her to add another item. She
         # enters "Use peacock feathers to make a fly" (Edith is very
         # methodical)
-        self.fail('Finish the test!')
 
         # The page updates again, and now shows both items on her list
-
-
-if __name__ == '__main__':  #7
-    unittest.main(warnings='ignore')
