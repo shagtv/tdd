@@ -25,7 +25,7 @@ SECRET_KEY = '3&@to!668u)xa7(6i=!1nqefk7%g_pl_mr5i1@7=k5qu15ll5&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['test.shagtv.net']
+ALLOWED_HOSTS = ['test.shagtv.net', 'shagtv.net']
 
 
 # Application definition
