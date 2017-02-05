@@ -3,8 +3,8 @@ from django.template.loader import render_to_string
 from django.core.urlresolvers import resolve
 from django.test import TestCase
 import re
-from .models import Item, List
-from .views import home_page
+from lists.models import Item, List
+from lists.views import home_page
 
 
 class HomePageTest(TestCase):
